@@ -9,7 +9,7 @@ class Filter {
 
         double get_prev_output() const;
 
-    private:
+    protected:
         double output;
 };
 
