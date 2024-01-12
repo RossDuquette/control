@@ -7,7 +7,7 @@ class LowPass : public Biquad {
     public:
         LowPass();
 
-        void configure(double fs, double fs, double zeta,
+        void configure(double fs, double fc, double zeta,
                        double init_condition = 0);
 };
 
